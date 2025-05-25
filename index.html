@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div id="app">
+    <h1>🌤️ Weather App</h1>
+    <input type="text" id="city-input" placeholder="ใส่ชื่อเมือง เช่น Bangkok" />
+    <button onclick="getWeatherByCity()">ค้นหา</button>
+    <div id="weather-box">
+      <p id="location"></p>
+      <p id="temperature"></p>
+      <p id="description"></p>
+      <p id="humidity"></p>
+    </div>
+    <div id="forecast">
+      <h2>พยากรณ์อากาศในอีก 4 วัน</h2>
+      <div id="forecast-cards"></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
