@@ -1,4 +1,4 @@
-const apiKey = "36e844fdd8c3fba9695755645593ffc0"; // <-- ใส่ API Key ของคุณจาก OpenWeatherMap
+const apiKey = "36e844fdd8c3fba9695755645593ffc0"; 
 
 async function getWeatherByCity() {
   const city = document.getElementById("city-input").value;
